@@ -47,6 +47,7 @@ GEM
       autoprefixer-rails (>= 6.0.3)
       popper_js (>= 1.12.3, < 2)
       sass (>= 3.5.2)
+    bcrypt (3.1.7)
     builder (3.2.3)
     byebug (9.1.0)
     coffee-rails (4.2.2)
@@ -98,6 +99,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     popper_js (1.12.5)
+    pg (0.21.0)
     puma (3.0.0)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -169,6 +171,7 @@ GEM
     warden (1.2.7)
       rack (>= 1.0)
     web-console (3.5.1)
+    web-console (3.3.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
@@ -185,10 +188,10 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise
-  font-awesome-sass
   jbuilder (= 2.5)
   jquery-rails
   listen (= 3.0.5)
+  pg
   puma (= 3.0)
   rails (~> 5.0)
   rolify
