@@ -46,3 +46,4 @@ bower.json
 /db/*.sqlite3
 
 /.idea/
+/logs/*.log
