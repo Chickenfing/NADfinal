@@ -15,7 +15,6 @@
 //= require bootstrap
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 
 var idx = Math.floor((new Date().getHours()));

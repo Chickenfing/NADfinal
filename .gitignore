@@ -47,3 +47,6 @@ bower.json
 
 /.idea/
 /logs/*.log
+/public/packs
+/public/packs-test
+/node_modules
