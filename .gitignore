@@ -43,5 +43,7 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
-# Idea if you are using that
-.idea
+/db/*.sqlite3
+
+/.idea/
+/logs/*.log

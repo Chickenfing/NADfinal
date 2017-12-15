@@ -31,6 +31,11 @@ gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'rolify'
+gem 'devise'
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'font-awesome-sass'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
