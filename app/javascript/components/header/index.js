@@ -1,34 +1,6 @@
-import React { Component } from 'react'
-import styled from 'styled-components'
-
-const HeaderLogo = styled.img `
+import Header from './header'
 
 
-`;
-
-
-const HeaderDiv = styled.div `
-
-
-
-`;
-
-
-const HeaderIcons = styled.div `
-
-
-`;
-
-const HeaderSearch = stylef.text `
-
-
-`;
-
-class Header extends Component {
-    render() {
-
-    }
-
+export {
+    Header as default
 }
-
-export default Header;

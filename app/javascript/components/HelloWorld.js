@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styled from 'styled-components'
+import { Header } from './header'
 
 const Span= styled.span`
     color:red;
@@ -23,10 +24,12 @@ class HelloWorld extends React.Component {
         }
         return (
             <div>
-                <Text>
-                    Greeting: {greeting}
-                </Text>
-                <Span>Hello</Span>
+                <Header>
+                    <Text>
+                        Greeting: {greeting}
+                    </Text>
+                    <Span>Hello</Span>
+                </Header>
             </div>
         );
   }
@@ -35,4 +38,5 @@ class HelloWorld extends React.Component {
 HelloWorld.propTypes = {
   greeting: PropTypes.string
 };
+
 export default HelloWorld
